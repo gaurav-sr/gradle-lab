@@ -1,0 +1,9 @@
+task Hello {
+    doFirst {
+        println ('Hello Gradle')
+    }
+
+    doLast {
+        println ('This is a basic project showing a task. ')
+    }
+}
