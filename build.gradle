@@ -1,9 +1,12 @@
-task Hello {
-    doFirst {
-        println ('Hello Gradle')
-    }
+plugins {
+    id 'java-library'
+}
 
-    doLast {
-        println ('This is a basic project showing a task. ')
-    }
+repositories {
+    jcenter()
+}
+
+dependencies {
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
 }

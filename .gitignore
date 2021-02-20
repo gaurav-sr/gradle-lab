@@ -24,3 +24,11 @@ hs_err_pid*
 
 # ignores .gradle folder
 .gradle
+build
+gradle
+gradlew
+gradlew.bat
+bin
+.project
+.settings
+.classpath
