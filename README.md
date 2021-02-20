@@ -1,3 +1,3 @@
 # gradle-lab
 
-This repository has code snippets to try various features of gradle.
+This branch shows how dependant tasks can be created.

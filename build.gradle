@@ -1,9 +1,13 @@
-task Hello {
+task validateFile {
     doFirst {
-        println ('Hello Gradle')
-    }
-
-    doLast {
-        println ('This is a basic project showing a task. ')
+        println ('This will validate the file')
     }
 }
+
+task copyFile {
+    dependsOn validateFile
+    doFirst {
+        println ('This will copy the files')
+    }
+}
+
